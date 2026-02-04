@@ -39,7 +39,7 @@ export function Hero() {
     }, [])
 
     return (
-        <section className="relative overflow-hidden bg-white py-24 lg:py-32">
+        <section className="relative overflow-hidden bg-white py-12 sm:py-20 lg:py-32">
             {/* Background Decorative Elements */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 pointer-events-none">
                 <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/5 rounded-full blur-[120px] animate-pulse" />
@@ -62,9 +62,9 @@ export function Hero() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.1 }}
-                        className="text-5xl md:text-7xl font-black tracking-tight mb-6 leading-[1.1]"
+                        className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter mb-6 leading-[1.1]"
                     >
-                        Thấu hiểu thị trường <br />
+                        Thấu hiểu thị trường <br className="hidden sm:block" />
                         <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-blue-600 to-indigo-600">
                             chứng khoán
                         </span>
