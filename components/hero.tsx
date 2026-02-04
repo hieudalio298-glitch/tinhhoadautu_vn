@@ -108,11 +108,11 @@ export function Hero() {
                                     y: -8
                                 }}
                                 whileTap={{ scale: 0.95 }}
-                                className={`w-16 h-16 rounded-2xl bg-white flex items-center justify-center text-slate-400 ${social.color} hover:text-white transition-all duration-300 shadow-[0_10px_20px_rgba(0,0,0,0.05),0_6px_6px_rgba(0,0,0,0.05)] ${social.shadow} hover:shadow-[0_20px_30px_-5px_red] border border-slate-100 group relative overflow-hidden`}
+                                className={`w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl bg-white flex items-center justify-center text-slate-400 ${social.color} hover:text-white transition-all duration-300 shadow-[0_10px_20px_rgba(0,0,0,0.05),0_6px_6px_rgba(0,0,0,0.05)] ${social.shadow} hover:shadow-[0_20px_30px_-5px_red] border border-slate-100 group relative overflow-hidden`}
                                 style={{ perspective: '1000px' }}
                             >
                                 <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                                <social.icon className="h-7 w-7 relative z-10" />
+                                <social.icon className="h-5 w-5 md:h-7 md:w-7 relative z-10" />
                                 {/* 3D "Shadow" underlying effect */}
                                 <div className="absolute bottom-0 left-0 right-0 h-1 bg-black/10 group-hover:bg-white/20" />
                             </motion.a>
