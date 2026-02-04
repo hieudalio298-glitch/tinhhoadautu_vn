@@ -83,8 +83,7 @@ export default async function BlogPage({
             <div className="flex flex-col md:flex-row gap-8">
                 {/* Sidebar */}
                 <aside className="w-full md:w-64 space-y-8">
-                    {/* Register Section */}
-                    <SidebarRegister />
+                    {/* Register Section removed as requested */}
 
                     <div>
                         <h3 className="font-bold mb-4">Tìm kiếm</h3>

@@ -19,7 +19,7 @@ export function SidebarRegister() {
                 </div>
 
                 <p className="text-sm text-slate-300 mb-6 leading-relaxed">
-                    Mở khóa các <span className="text-primary font-semibold">Khuyến nghị đặc biệt</span> và báo cáo phân tích báo cáo doanh nghiệp hàng tuần.
+                    Mở khóa các <span className="text-white font-semibold">Khuyến nghị đặc biệt</span> và báo cáo phân tích báo cáo doanh nghiệp hàng tuần.
                 </p>
 
                 <div className="space-y-3 mb-6">
