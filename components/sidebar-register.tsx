@@ -18,8 +18,8 @@ export function SidebarRegister() {
                     <h3 className="font-bold text-lg tracking-tight">Gói Hội Viên VIP</h3>
                 </div>
 
-                <p className="text-sm text-slate-300 mb-6 leading-relaxed">
-                    Mở khóa các <span className="text-white font-semibold">Khuyến nghị đặc biệt</span> và báo cáo phân tích báo cáo doanh nghiệp hàng tuần.
+                <p className="text-sm text-white mb-6 leading-relaxed">
+                    Mở khóa các <span className="font-semibold">Khuyến nghị đặc biệt</span> và báo cáo phân tích báo cáo doanh nghiệp hàng tuần.
                 </p>
 
                 <div className="space-y-3 mb-6">
